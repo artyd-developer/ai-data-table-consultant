@@ -1,8 +1,13 @@
+[English](README.md) | [Русский](README.ru.md)
+
 # AI Data Table Consultant
 
 A web application for analyzing tabular data using local LLM models via Ollama.
 The user uploads CSV, XLS or XLSX, selects a model, and can then ask questions about the data in natural language.
 AI analyzes data through SQL tools, and the used columns of the table are highlighted visually.
+
+<img width="1855" height="959" alt="table-consultant" src="https://github.com/user-attachments/assets/bae138cf-79ab-480e-812a-8099d54ec5c2" />
+
 
 ## Project Idea
 
