@@ -1,0 +1,36 @@
+[project]
+name = "business-agent"
+version = "0.1.0"
+description = "AI Business Data Agent"
+requires-python = ">=3.12"
+
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.34",
+    "httpx>=0.27",
+    
+    "langgraph>=0.6",
+    "langchain>=0.3",
+    "langchain-core>=0.3",
+    "langchain-ollama>=0.3",
+
+    "duckdb>=1.2",
+    "pandas>=2.2",
+    "openpyxl>=3.1",
+    "xlrd>=2.0.1",
+
+    "pydantic>=2.10",
+    "pydantic-settings>=2.7",
+
+    "sqlalchemy>=2.0",
+    "pymysql>=1.1",
+
+    "python-multipart>=0.0.20",
+    "requests",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "ruff>=0.9"
+]
