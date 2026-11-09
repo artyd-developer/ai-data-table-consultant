@@ -2,7 +2,7 @@
 
 # AI Data Table Consultant
 
-<video src="https://github.com/user-attachments/assets/779dbd5b-3659-4dae-91cc-acab694d05c1" controls width="800"></video>
+https://github.com/user-attachments/assets/779dbd5b-3659-4dae-91cc-acab694d05c1
 
 A web application for analyzing tabular data using local LLM models via Ollama.
 The user uploads CSV, XLS or XLSX, selects a model, and can then ask questions about the data in natural language.
